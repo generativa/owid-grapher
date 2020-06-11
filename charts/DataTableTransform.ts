@@ -20,13 +20,6 @@ export enum TargetYearMode {
 
 type TargetYears = [number] | [number, number]
 
-// Sorting modes
-
-export enum SortOrder {
-    asc = "asc",
-    desc = "desc"
-}
-
 // Dimensions
 
 export interface Dimension {

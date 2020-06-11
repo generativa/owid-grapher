@@ -12,13 +12,13 @@ import { faSortAlphaDown } from "@fortawesome/free-solid-svg-icons/faSortAlphaDo
 import { faSortAlphaUpAlt } from "@fortawesome/free-solid-svg-icons/faSortAlphaUpAlt"
 
 import { ChartConfig } from "./ChartConfig"
+import { SortOrder } from "./SortOrder"
 import { capitalize, some, defaultTo, orderBy, upperFirst } from "./Util"
 import { Tippy } from "./Tippy"
 import {
     DataTableTransform,
     DataTableRow,
     TargetYearMode,
-    SortOrder,
     ColumnKey,
     isSingleValue,
     DataTableDimension,
