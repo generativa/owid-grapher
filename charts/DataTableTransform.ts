@@ -175,7 +175,7 @@ export class DataTableTransform {
     ): string | undefined {
         if (value === undefined) return value
         return dimension.formatValueShort(value, {
-            autoPrefix: false,
+            numberPrefixes: false,
             noTrailingZeroes: false,
             unit: getValueUnit(dimension.unit),
             ...formattingOverrides
